@@ -1,0 +1,41 @@
+@media only screen and (min-width: 35em) {
+	.grid li {
+		width: 33.33%;
+		float: left;
+		padding:2%;
+	}
+
+	.grid li:nth-child(3n+4) {
+		clear: left;
+	}
+
+	.circle{
+		border: 8px solid white;
+		max-width: 25%;
+		margin: 2% 5% 2% 2%;
+		float:left;
+}
+
+.about  h2 {
+  text-align: left;
+}
+
+h1{
+    font-size: 2em; 
+    line-height: 2.5em;
+}
+
+img.content{
+    width: 80%;
+}
+
+p.content {
+    width: 80%;
+    font-size:1.5em;
+    line-height: 1.5em;
+}
+
+h2.contentpage{
+    font-size: 3em; 
+    line-height: 1.25em;
+}
